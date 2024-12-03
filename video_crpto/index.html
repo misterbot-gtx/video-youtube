@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="//www.youtube.com/player_api"></script>
+
+</head>
+
+<body>
+    <div class="pai">
+        <div id="video-box" style="width:800px;">
+            <div class="wrapper">
+                <div class="video-absolute">
+
+                    <div class="wistia-vdieo-container">
+                        <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+                            <div class="wistia_responsive_wrapper"
+                                style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                                <div style="padding:56.25% 0 0 0;position:relative;">
+                                    <div class="video-wrap-wrap"
+                                        style="height:100%;left:0;position:absolute;top:0;width:100%;">
+
+
+
+                                        <!--SUBSTITUIR LINK https://www.youtube.com/embed/8zfLyteqfb4 PELO SEU-->
+                                        <iframe id="video" style="height:100%; width:100%"
+                                            src="https://www.youtube.com/embed/cba9xWne06c?rel=0&controls=0&&enablejsapi=1&playsinline=1&mute=1&showinfo=0"
+                                            frameborder="1" allow="autoplay;" allowfullscreen></iframe>
+
+
+
+
+                                        <div id="play-button-video" class="semt" style="background-size: cover;">
+                                            <div class="play-text">
+
+                                            </div>
+                                            <div class="continue-text" style="display: none;">
+
+                                            </div>
+                                            <div id="fullscreen-button" class="video-paused-btn">
+                                                <img src="https://i.postimg.cc/KvjgW9Gn/video-paused-btn.png" alt="" />
+                                            </div>
+                                            <div class="play-text play-text--bottom">
+                                                CLIQUE PARA ASSISTIR
+                                            </div>
+                                            <div class="continue-text continue-text--bottom" style="display: none;">
+                                                CONTINUAR ASSISTINDO
+                                            </div>
+                                        </div>
+                                        <div class="youtube-overlay"></div>
+                                        <!-- Bloquear o click ao botão do Youutube inferior-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="obs.js"></script>
+
+</body>
+
+</html>
